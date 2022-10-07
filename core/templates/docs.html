@@ -1,0 +1,13 @@
+{% extends "drf-yasg/swagger-ui.html" %}
+{% load static %}
+
+{% block extra_styles %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+{% endblock extra_styles%}
+
+{% block extra_scripts %}
+<script>
+  swaggerUiConfig.layout = "BaseLayout";
+  // any other override you'd like to do
+</script>
+{% endblock %}

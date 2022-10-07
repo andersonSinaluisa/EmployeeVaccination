@@ -1,0 +1,12 @@
+.opblock-summary  button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    display: contents;
+}
+
+
+.swagger-ui button{
+    background: transparent;
+    border: none;
+}
